@@ -1,0 +1,24 @@
+{
+  "name": "discordBOT",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "discordBOT.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon msbot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "api": "^3.4.0",
+    "express": "^4.17.1",
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "discord.js": "^13.2.0-dev.1632830601.3b14883"
+  } ,
+  "devDependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
